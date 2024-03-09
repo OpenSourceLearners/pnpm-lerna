@@ -10,54 +10,7 @@
       "allowBranch": ["master"],
       "conventionalCommits": true,
       "changelog": true,
-      "changelogPreset": {
-        "types": [
-          {
-            "type": "feat",
-            "section": "feat:     ✨  新增功能  "
-          },
-          {
-            "type": "fix",
-            "section": "fix:      🐛  修复缺陷 "
-          },
-          {
-            "type": "docs",
-            "section": "docs:     📝  文档更新 "
-          },
-          {
-            "type": "style",
-            "section": "style:    💄  代码格式 "
-          },
-          {
-            "type": "refactor",
-            "section": "refactor: ♻️   代码重构 "
-          },
-          {
-            "type": "perf",
-            "section": "perf:     ⚡️  性能提升 "
-          },
-          {
-            "type": "test",
-            "section": "test:     ✅  测试相关 "
-          },
-          {
-            "type": "build",
-            "section": "build:    📦️   构建相关 "
-          },
-          {
-            "type": "ci",
-            "section": "ci:       🎡  持续集成 "
-          },
-          {
-            "type": "chore",
-            "section": "chore:    🔨  其他修改 "
-          },
-          {
-            "type": "revert",
-            "section": "revert:   ⏪️  回退代码 "
-          }
-        ]
-      }
+      "changelogPreset": "angular"
     }
   }
 }
