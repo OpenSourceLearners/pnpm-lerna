@@ -1,9 +1,0 @@
-17 error Error: Command failed with exit code 1: git remote update
-17 error fatal: unable to access 'https://github.com/OpenSourceLearners/pnpm-lerna.git/': Failed to connect to github.com port 443 after 21083 ms: Couldn't connect to server
-17 error     at makeError (D:\workspace\pnpm-lerna\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
-17 error     at Function.module.exports.sync (D:\workspace\pnpm-lerna\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:186:17)
-17 error     at Object.execSync (D:\workspace\pnpm-lerna\node_modules\.pnpm\@lerna+child-process@7.4.2\node_modules\@lerna\child-process\index.js:39:16)
-17 error     at updateRemote (D:\workspace\pnpm-lerna\node_modules\.pnpm\lerna@7.4.2\node_modules\lerna\dist\index.js:7617:18)
-17 error     at isBehindUpstream (D:\workspace\pnpm-lerna\node_modules\.pnpm\lerna@7.4.2\node_modules\lerna\dist\index.js:7607:3)
-17 error     at VersionCommand.initialize (D:\workspace\pnpm-lerna\node_modules\.pnpm\lerna@7.4.2\node_modules\lerna\dist\index.js:7914:57)
-17 error     at VersionCommand.runCommand (D:\workspace\pnpm-lerna\node_modules\.pnpm\lerna@7.4.2\node_modules\lerna\dist\index.js:1761:36)
