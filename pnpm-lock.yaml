@@ -4,13 +4,10 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-importers:
-
-  .:
-    devDependencies:
-      lerna:
-        specifier: ^7.4.2
-        version: 7.4.2
+devDependencies:
+  lerna:
+    specifier: ^7.4.2
+    version: 7.4.2
 
 packages:
 
