@@ -17,6 +17,6 @@
     "lerna": "^7.4.2"
   },
   "workspaces": {
-    "packages": ["packages"]
+    "packages": ["packages/*"]
   }
 }
