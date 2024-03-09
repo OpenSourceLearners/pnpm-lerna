@@ -1,13 +1,17 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "npmClient": "pnpm",
   "scope": "@xmc",
   "useNx": true,
-  "packages": ["packages/*"],
+  "packages": [
+    "packages/*"
+  ],
   "command": {
     "version": {
-      "allowBranch": ["master"],
+      "allowBranch": [
+        "master"
+      ],
       "conventionalCommits": true,
       "changelogPreset": "angular"
     }
@@ -19,7 +23,10 @@
         "value": "feat",
         "section": "feat:     ✨  新增功能  "
       },
-      { "value": "fix", "section": "fix:      🐛  修复缺陷 " },
+      {
+        "value": "fix",
+        "section": "fix:      🐛  修复缺陷 "
+      },
       {
         "value": "docs",
         "section": "docs:     📝  文档更新 "
