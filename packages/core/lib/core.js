@@ -3,5 +3,5 @@
 module.exports = core;
 
 function core() {
-  return 'Hello from core';
+  return 'hello world core';
 }
