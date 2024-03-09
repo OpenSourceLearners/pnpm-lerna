@@ -1,16 +1,60 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "independent",
+  "version": "1.0.0",
   "npmClient": "pnpm",
+  "scope": "@xmc",
   "useNx": true,
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "command": {
-    "changed": {
-      "ignoreChanges": []
-    },
-    "publish": {
+    "version": {
+      "allowBranch": ["master"],
+      "conventionalCommits": true
     }
+  },
+  "changelog": true,
+  "changelogPreset": {
+    "types": [
+      {
+        "value": "feat",
+        "section": "feat:     ✨  新增功能  "
+      },
+      { "value": "fix", "section": "fix:      🐛  修复缺陷 " },
+      {
+        "value": "docs",
+        "section": "docs:     📝  文档更新 "
+      },
+      {
+        "value": "style",
+        "section": "style:    💄  代码格式 "
+      },
+      {
+        "value": "refactor",
+        "section": "refactor: ♻️   代码重构 "
+      },
+      {
+        "value": "perf",
+        "section": "perf:     ⚡️  性能提升 "
+      },
+      {
+        "value": "test",
+        "section": "test:     ✅  测试相关 "
+      },
+      {
+        "value": "build",
+        "section": "build:    📦️   构建相关 "
+      },
+      {
+        "value": "ci",
+        "section": "ci:       🎡  持续集成 "
+      },
+      {
+        "value": "chore",
+        "section": "chore:    🔨  其他修改 "
+      },
+      {
+        "value": "revert",
+        "section": "revert:   ⏪️  回退代码 "
+      }
+    ]
   }
 }
